@@ -33,6 +33,22 @@ class MainActivity : AppCompatActivity() {
         numAttendEditText = findViewById(R.id.num_attend_edit_text)
         numPizzasTextView = findViewById(R.id.num_pizzas_text_view)
         howHungryRadioGroup = findViewById(R.id.hungry_radio_group)
+        //        numAttendEditText = findViewById(R.id.num_attend_edit_text)
+//        numAttendEditText.addTextChangedListener(object : TextWatcher {
+//            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+//
+//            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
+//
+//
+//            }
+//
+//            override fun afterTextChanged(s: Editable) {
+//
+//            }
+//        })
+
+
+
         Log.d(TAG, "onCreate was called")
     }
 
